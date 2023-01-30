@@ -1,0 +1,7 @@
+option('PRODUCTION', description: 'PRODUCTION', type: 'integer', value: 0)
+option('DYNAMIC_LIBXDP', description: 'DYNAMIC_LIBXDP', type: 'integer', value: 0)
+option('MAX_DISPATCHER_ACTIONS', description: 'MAX_DISPATCHER_ACTIONS', type: 'integer', value: 10)
+option('BPF_TARGET', description: 'BPF_TARGET', type: 'string', value: 'bpf')
+option('RUNDIR', description: 'RUNDIR', type: 'string', value: '/run')
+option('BPF_DIR_MNT', description: 'BPF_DIR_MNT', type: 'string', value: '/sys/fs/bpf')
+option('BPF_OBJECT_DIR', description: 'BPF_OBJECT_DIR', type: 'string', value: 'bpf')
